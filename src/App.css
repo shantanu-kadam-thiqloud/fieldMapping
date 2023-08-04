@@ -1,0 +1,248 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+  margin: 0px !important;
+  font-family:Roboto,Arial,sans-serif !important;
+}
+/* Default font size for larger screens 
+body {
+  font-size: 2.5vh !important;
+}
+
+/* Adjust font size for smaller screens 
+@media (max-width: 768px) {
+  body {
+    font-size: 2vh !important;
+  }
+}
+
+/* Adjust font size for even smaller screens 
+@media (max-width: 480px) {
+  body {
+    font-size: 1.8vh !important;
+  }
+} */
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.headerLogo {
+  float: left;
+  margin-left: 70px;
+  margin-top: 8px;
+}
+.logo {
+  background: #ff0000;
+  min-height: 60px;
+}
+/* field css */
+.fieldContainer {
+  max-width: 300px;
+  margin: auto;  
+}
+.columnField {
+  padding: 7px;
+  margin: 0px 0px 8px;
+  background: #003366;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.sectionTitle { 
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 20px;
+  color: #003366;
+}
+/* .form-control{
+  background: lightgrey !important;
+  border: none !important;
+  color: #000000 !important;
+  padding: 0px !important;
+} */
+.dyanamicfields {
+    max-width: 300px;
+    margin: auto;
+  }
+  /* select.form-control {
+    background: lightgray;
+    color: #000000;
+    border: none;
+} */
+.dyanamicfields .form-group {
+  padding-bottom: 10px;  
+}
+.dyanamicfields .form-select {
+  height: 56px !important;
+  border: solid 1px;
+  border-radius: 4px;
+}
+.selectBox{
+    background-color: gray;
+    border: none;
+}
+
+.addFild:hover {
+  background-color: #ff0000 !important;
+  border-color: #ff0000 !important;
+  color: #ffffff !important;
+}
+.addFild{
+  border-color: #ff0000 !important;
+  color: #ff0000 !important;
+  padding: 12px !important;
+  min-width: 120px;
+  border-radius: 4px !important;
+}
+.btnSave{
+  background-color: #ff0000 !important;
+  border-color: #ff0000 !important;
+}
+
+button.btnDel {
+  border: none;
+  background: #ffffff;
+}
+.field-Container .form-control{
+  border: solid 1px;
+} 
+.addFieldBtnDiv {
+  max-width: 700px;
+  text-align: end;
+  margin: auto;
+}
+.addFieldContainer {
+  border: 1px solid;
+  border-radius: 4px;
+  max-width: 1000px;
+  margin: auto;
+}
+.addIcon{
+    vertical-align: bottom;
+}
+.alert-danger {
+  max-width: 800px;
+  margin: auto;
+}
+.propertyText {
+  font-size: 12px;
+  color: #ffffff;
+}
+.fileTypeSel {
+  max-width: 250px;
+    border: solid 1px #000000!important;
+    border-radius: 4px !important;
+}
+.fileExtenstion{
+  float: left;
+  font-size: 20px;
+}
+.fileExtenstion input {
+  margin-left: 20px;
+}
+
+/* add field css */
+.fileConfig .form-control, .fileConfig .form-select {
+  border: solid 1px #000000 !important;
+  border-radius: 4px !important;
+}
+
+.fileConfig.container {
+  border: solid 1px #000000;
+  border-radius: 4px;
+  max-width: 1000px !important;
+  padding: 20px;
+  text-align: left;
+}
+.selectField{
+  appearance: auto !important;
+}
+.text-right{
+  text-align: end !important;
+}
+.text-left{
+  text-align: left !important;
+}
+.plusIcon{
+  font-size: 16px;
+  color: #ff0000;
+  margin-right: 5px;
+}
+.btn.addFild:hover .plusIcon {
+  color: #FFFFFF;
+}
+/* Field mapping Css */
+.fieldMapContainer{
+  max-width: 100% !important;
+  padding: 0px !important;
+}
+/* .fieldMapDiv{
+  background-color: #F3F3F3;
+} */
+.float-left{
+  float: left !important;
+}
+.mainFiledDiv {
+  max-width: 800px !important;
+  margin: auto !important;
+  background-color: #FFFFFF;
+  border: solid 1px;
+  border-radius: 4px;
+}
+.fieldsaveBtnDiv {
+  max-width: 800px !important;
+  margin: auto;
+  padding-right: 0px !important;
+}
+.required:after {
+  content:" *";
+  color: #ff0000;
+}
+.redColor{
+  color: #ff0000 !important;
+}
+.mainFiledDiv .sectionTitle{
+  margin-left: 35px !important;
+}
+.fileTypeLbl{
+  display: block;
+}
+.fileTypeSelect{  
+  text-align: left;
+  margin-left: 35px;
+}
+.demoMenu {
+  float: left;
+  background: transparent;
+  border: unset;
+  color: #ffffff;
+  font-size: 21px;
+  margin: 15px 20px;
+}
